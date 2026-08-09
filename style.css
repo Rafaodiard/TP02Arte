@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+body{
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 0;
+}
+
+footer img {
+    width: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.sponsors{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    display: flex;
+}
+.sponsors img
+{
+    text-align: center;
+    width: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+footer a{
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7.2%;
+    padding-left: 10%;    
+    position: fixed;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+header a img{
+    width: 227px;
+}
+header a{
+    width: fit-content;
+    margin:0;
+    padding:0;
+
+}
+header nav {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    width: 100%;
+    list-style: none;
+    align-items: center;
+    display: flex;
+        gap: 30px;
+
+}
+
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
