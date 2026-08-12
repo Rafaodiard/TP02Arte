@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px solid red;
 }
 html,
 body {
@@ -17,7 +16,7 @@ body{
 }
 main {
     flex: 1;
-    padding-top: 10%;   
+    padding-top: 8%;   
     background-color: gray;
 }
 
@@ -91,6 +90,7 @@ footer ul a{
 footer ul a:hover{
     color: #d50032;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -102,6 +102,18 @@ header {
     width: 100%;
     box-sizing: border-box;
     
+}
+.store-header{
+ display: block;   
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    box-sizing: border-box;
 }
 header a img{
     width: 227px;
@@ -154,7 +166,12 @@ header nav ul li a {
     height: 100vh;
 
 }
-
+.despros div{
+    background-color: ;
+}
+.about img{
+    width: 100%;
+}
 
 
 /*layouts*/
