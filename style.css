@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 html,
 body {
@@ -16,8 +17,20 @@ body{
 }
 main {
     flex: 1;
+    padding-top: 10%;   
+    background-color: gray;
 }
 
+h1,h2
+{
+    color: white;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 40px;
+}
 
 footer {
     background-color: black;
@@ -130,6 +143,32 @@ header nav ul li a {
     font-size: 20px;
 }
 
+.hero .rojo{
+    color: #d50032;
+}
 .hero{
-        
+    background-image: url("assets/fondos/Fondo-HERO.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+
+
+/*layouts*/
+.x3x2 {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.x2x1 {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
 }
