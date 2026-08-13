@@ -106,6 +106,10 @@ header {
 .store-header{
  display: block;   
 }
+
+
+
+
 header div{
     display: flex;
     justify-content: space-between;
@@ -122,24 +126,30 @@ header a{
     width: fit-content;
     margin:0;
     padding:0;
-
 }
-header a:hover{
+header nav  a:hover, .header-categorias a:hover{
         color: #d50032;
+        border-bottom: 5px solid #d50032;
 
 }
-header nav {
+header nav, .header-categorias {
     margin-top: 2%;
     display: flex;
     align-items: center;
 }
+.header-categorias{
+    margin: 1% 0;
+    
 
-header nav ul {
+}
+
+header nav ul, .header-categorias ul{
     width: 100%;
     list-style: none;
     align-items: center;
     display: flex;
-        gap: 30px;
+    gap: 30px;
+    justify-content: center;
 
 }
 
@@ -149,7 +159,7 @@ footer hr{
     border: none;
     border-top: 1px solid white;
 }
-header nav ul li a {
+header nav ul li a,.header-categorias ul li a {
     color: white;
     text-decoration: none;
     font-size: 20px;

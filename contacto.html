@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,10 +9,9 @@
     <title>Nova Store</title>
 </head>
 <body>
+    <header>
+        <a href="index.html"><img src="assets/logos/logo.png" alt="asd"></a>
 
-    <header class="store-header">
-        <div>
-            <a href="index.html"><img src="assets/logos/logo.png" alt="asd"></a>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -22,25 +21,36 @@
                 <li><a href="https://legendsneverdieeee.netlify.app">comunidad ↗</a></li>
             </ul>
         </nav>
-            </div>
-            <hr>
-            <div class="header-categorias">
-                <ul>
-                        <li><a href="ropa.html">Ropa</a></li>
-                        <li><a href="accesorios.html">Accesorios</a></li>
-                        <li><a href="gaming.html">Gaming</a></li>
-                        <li><a href="digital.html">Digital</a></li>
-                        <li><a href="colecciones.html">Colecciones</a></li>
-                </ul>
-            </div>
     </header>
-    <div class="contenedor-aside">
-        <main>
-            <section class="store-hero">    
-                <a href="products.html"><img src="assets/Images/fackerJacket.webp" alt=""></a>
-            </section>
-        </main>
-    </div>
+
+<main >
+    <section class="">
+        <h1>¿NECESITÁS AYUDA?</h1>
+        <h2>Estamos acá para ayudarte. Completá el formulario y contanos cuál es tu consulta o problema con tu compra. Nuestro equipo de soporte te responderá lo antes posible.</h2>
+
+    </section>
+    <section class="">
+        <form action="solicitudEnviada.html" >
+        
+        <input type="text" name="name"  placeholder="Ingresa tu nombre"/>
+        <select>
+            <option>Consulta sobre un producto</option>
+            <option>Problema con mi compra</option>
+            <option>Estado de mi pedido</option>
+            <option>Problema con el pago</option>
+            <option>Otro</option>
+        </select>
+        <input type="text" name="email"  placeholder="mail ej: 123dante@gmail.com"/>
+        <input type="text" name="pedido"  placeholder="Número de pedido"/>
+        Contanos qué necesitás:
+        <textarea name="unirse" rows="10" cols="30"></textarea> 
+        <button type="submit">Enviar consulta</button>        
+        </form>
+    </section>    
+    
+</main>
+    
+
     <footer>
         <section class="sponsors">
             
