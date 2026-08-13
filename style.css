@@ -14,12 +14,72 @@ body{
     display: flex;
     flex-direction: column;
 }
-main {
+main
+{
     flex: 1;
-    padding-top: 8%;   
-    background-color: gray;
+}
+.contenedor-aside main{
+    flex: 1;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
+.contenedor-aside{
+    display: flex;
+    align-items: flex-start;
+
+    flex: 1;
+    padding-top: 8%;
+    background-color: gray;
+}
+aside{
+    position: sticky;
+    top: 20%; 
+    min-height: calc(100vh - 20%);
+
+    width: 18%;
+    flex: 0 0 18%;
+    padding-top: 2%;
+    background: linear-gradient(
+        to bottom,
+        black 0%,
+        #111 60%,
+        #7a001c 85%,
+        #d50032 100%
+    );
+     color: white;
+}
+aside a{
+    text-decoration: none;
+    color: white;
+}
+aside div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+aside div ul{
+    margin-left: 5%;
+    list-style: none;
+}
+aside ul li
+{
+        margin: 4% 0;
+
+}
+aside hr
+{
+    width: 80%;
+}
+aside div ul li a:hover
+{
+    margin-left: 1%;
+    font-size: 18px;
+}
 h1,h2
 {
     color: white;
@@ -86,11 +146,6 @@ footer ul a{
     color: white;
     text-decoration: none;
 }
-
-footer ul a:hover{
-    color: #d50032;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -101,10 +156,8 @@ header {
     background-color: black;
     width: 100%;
     box-sizing: border-box;
-    
-}
-.store-header{
- display: block;   
+        z-index: 1000;
+
 }
 
 
@@ -127,23 +180,19 @@ header a{
     margin:0;
     padding:0;
 }
-header nav  a:hover, .header-categorias a:hover{
+header nav  a:hover,footer ul a:hover, aside a:hover{
         color: #d50032;
         border-bottom: 5px solid #d50032;
 
 }
-header nav, .header-categorias {
+header nav {
     margin-top: 2%;
     display: flex;
     align-items: center;
 }
-.header-categorias{
-    margin: 1% 0;
-    
 
-}
 
-header nav ul, .header-categorias ul{
+header nav ul{
     width: 100%;
     list-style: none;
     align-items: center;
@@ -159,7 +208,7 @@ footer hr{
     border: none;
     border-top: 1px solid white;
 }
-header nav ul li a,.header-categorias ul li a {
+header nav ul li a{
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -176,13 +225,22 @@ header nav ul li a,.header-categorias ul li a {
     height: 100vh;
 
 }
-.despros div{
-    background-color: ;
-}
+
 .about img{
     width: 100%;
 }
 
+
+
+.store-hero img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.store-hero{
+    width: 100%;
+    margin-top: 2.5%;
+}
 
 /*layouts*/
 .x3x2 {
