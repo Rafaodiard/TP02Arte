@@ -39,7 +39,7 @@ main
 aside{
     position: sticky;
     top: 20%; 
-    min-height: calc(100vh - 20%);
+    min-height: calc(100vh - 10%);
 
     width: 18%;
     flex: 0 0 18%;
@@ -47,8 +47,8 @@ aside{
     background: linear-gradient(
         to bottom,
         black 0%,
-        #111 60%,
-        #7a001c 85%,
+        #111 50%,
+        #7a001c 95%,
         #d50032 100%
     );
      color: white;
@@ -254,6 +254,14 @@ header nav ul li a{
   width: 100%;
   display: grid;
   grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.x2x5{
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
   grid-template-columns: repeat(2, 1fr);
   gap: 8px;
 }
