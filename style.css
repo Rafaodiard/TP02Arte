@@ -5,7 +5,6 @@
 html,
 body {
     height: 100%;
-    margin: 0;
 }
 body{
     font-family: "Anton", sans-serif;
@@ -17,6 +16,34 @@ body{
 main
 {
     flex: 1;
+    background-color: gray;
+}
+.paginacion{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 3%;
+    background-color: white;
+}
+
+.paginacion a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.paginacion a:hover{
+    background-color: #d50032;
+}
+.paginacion a.active{
+    background-color: #d50032;
 }
 .contenedor-aside main{
     flex: 1;
@@ -25,7 +52,6 @@ main
 
     display: flex;
     flex-direction: column;
-    gap: 30px;
 }
 
 .contenedor-aside{
@@ -39,10 +65,9 @@ main
 aside{
     position: sticky;
     top: 20%; 
-    min-height: calc(100vh - 10%);
-
-    width: 18%;
-    flex: 0 0 18%;
+    min-height: calc(100vh);
+    
+    flex: 0 0 5%;
     padding-top: 2%;
     background: linear-gradient(
         to bottom,
@@ -51,12 +76,17 @@ aside{
         #7a001c 95%,
         #d50032 100%
     );
-     color: white;
+    color: black;
+    font-size: 1px;
 }
+
 aside a{
     text-decoration: none;
-    color: white;
+    color: black;
+    font-size: 5px;
 }
+
+
 aside div{
     display: flex;
     flex-direction: column;
@@ -68,17 +98,42 @@ aside div ul{
 }
 aside ul li
 {
-        margin: 4% 0;
+    margin: 4% 0;
 
 }
 aside hr
 {
-    width: 80%;
+    border: none;
+    width: 10%;
 }
 aside div ul li a:hover
 {
     margin-left: 1%;
     font-size: 18px;
+}
+aside:hover
+{
+    font-size: 25px;
+    color: white;
+    flex: 0 0 18%;
+}
+aside:hover a
+{
+    color: white;
+    font-size: 18px;
+}
+aside:hover hr
+{
+    border: 1px solid white;
+    color: white;
+    width: 80%;
+}
+aside .menu
+{
+    color: white;
+    font-size: 35px;
+    margin-left: 15px;
+    width: fit-content;
 }
 h1,h2
 {
@@ -241,6 +296,75 @@ header nav ul li a{
     width: 100%;
     margin-top: 2.5%;
 }
+.products{
+    background-color: white;
+    padding-top: 2%;
+    min-height: 100vh;
+    padding-bottom: 2%;
+}
+
+.listaProductos{
+  list-style: none;
+
+}
+.listaProductos div
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.listaProductos div img
+{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: auto;
+}
+.listaProductos div:hover img
+{
+        border-radius: 10px;
+        scale: 1.07;
+
+}
+.listaProductos div a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    z-index: 999;
+
+}
+.products a:last-child  
+{   
+    
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding:1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.products a:last-child:hover
+{
+    text-decoration: underline;
+} 
+.products h3
+{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
 
 /*layouts*/
 .x3x2 {
@@ -257,11 +381,26 @@ header nav ul li a{
   grid-template-columns: repeat(2, 1fr);
   gap: 8px;
 }
-.x2x5{
+.x3x3 {
   width: 100%;
-
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
 }
+.x3x4 {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.x3x1 {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+
