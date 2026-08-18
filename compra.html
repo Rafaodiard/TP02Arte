@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,39 +22,53 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <div>
-                <h1>Nombre producto<h1>
-                <h2>Precio</h2>
-            </div>
 
-            <div>
-                <img src="" alt="asd">
-                <img src="" alt="asd">
-                <img src="" alt="asd">
-                <img src="" alt="asd">
-                <img src="" alt="asd">
-                <img src="" alt="asd">
-            </div>
-
-            <div>
-                <h2>Tamaño</h2>smlxl2xl
-                <form action="">
-                    <input type="radio" name="size"/>S
-                    <input type="radio" name="size"/>M
-                    <input type="radio" name="size"/>L
-                    <input type="radio" name="size"/>XL
-                    <input type="radio" name="size"/>XXL
-                    <h2>Cantidad</h2>
-                    <input type="number" min="1" max="10" step="1"/>
-                    <button>Comprar</button>
-                </form>
-            </div>
-
-        </section>
+<main >
+    <section class="">
+        <h1>FINALIZA TU COMPRA</h1>
+    </section>
+    <section class="">
+        <form action="pedidoEnviado.html" >
+        
+        <h2>Contacto</h2>
+        <input type="text" name="mail"  placeholder="Ingresa tu Email"/>
+        <input type="checkbox" name="sub"/>Quiere recibir las nuevas ofertas?
+        
+        <h2>Delivery</h2>
+        <select>
+            <option>Argentina</option>
+            <option>Estados Unidos</option>
+            <option>Mexico</option>
+            <option>Peru</option>
+            <option>Bolivia</option>
+        </select>
+        <input type="text" name="nombre"  placeholder="Ingresa tu nombre"/>
+        <input type="text" name="apellido"  placeholder="Ingresa tu apellido"/>
+        <input type="text" name="dire"  placeholder="Ingresa tu direccion"/>
+        <input type="text" name="aparta"  placeholder="Apartamento, Casa, etc (opcional)"/>
+        <input type="number" name="postal"  placeholder="Ingresa tu codigo postal"/>
+        <input type="text" name="ciudad"  placeholder="Ingresa tu ciudad"/>
+        <input type="number" name="numero"  placeholder="Ingresa tu numero de telefono"/>
+        
+        <h2>Pago</h2>
+        <input type="radio" name="pago"><p>Tarjeta de credito</p><img src="assets/icons/metodospago/mastercard.png" alt="asd"><img src="assets/icons/metodospago/visa.png" alt="asd">
+        <br>
+        <input type="radio" name="pago"><p>Billetera virtual</p><img src="assets/icons/metodospago/mp.png" alt="asd"><img src="assets/icons/metodospago/modo.png" alt="asd">
+        
+        <h2>Tarjeta</h2>
+        <input type="text" name="titular" placeholder="Titular de la tarjeta">
+        <input type="number" name="numtarjeta" placeholder="Numero de la tarjeta">
+        <h3>Fecha de vencimiento</h3>
+        <input type="date" name="fechavenci">
+        <input type="number" name="codigoseg" placeholder="Codigo de seguridad">
+        
+        <button type="submit">Realizar compra</button>        
+        </form>
+    </section>    
     
-    </main>
+</main>
+    
+
      <footer>
         <section class="sponsors">
             
