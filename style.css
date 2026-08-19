@@ -19,7 +19,7 @@ body{
 }
 main
 {
-    padding-top: 10%;
+    padding-top: 8%;
     flex: 1;
     background-color: gray;
 }
@@ -54,7 +54,6 @@ main
     flex: 1;
     padding: 0;
     margin: 0;
-
     display: flex;
     flex-direction: column;
 }
@@ -64,7 +63,7 @@ main
     align-items: flex-start;
 
     flex: 1;
-    padding-top: 8%;
+    padding-top: 5%;
     background-color: gray;
 }
 aside{
@@ -317,6 +316,7 @@ header nav ul li a{
 display: flex;
 flex-direction: column;
 align-items: center;
+margin-top: 1%;
 }
 .listaProductos div img
 {
@@ -386,7 +386,7 @@ align-items: center;
 {
     height: fit-content;
     position: sticky;
-    top: -25%;
+    top: -10%;
     padding-top: 6%;
     display: flex;
     flex-direction: column;
@@ -466,12 +466,31 @@ align-items: center;
     display: block;
 }
 
+.juegoscoach h2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.juegoscoach{
+    background-color: #2a2829;
+    padding-bottom: 2%;
+    align-items: center;
+}
+.juegoscoach div{   
+    background-color: white;
+}
+.juegoscoach .imgjuegos{
+    background-color:#2a2829;
+}
 .juegoscoach div img{
     text-align: center;
 
 }
+.juegoscoach a{
+
+}
 .imgjuegos
 {
+    
     max-width: 60%;
     margin-bottom: 2%;
 }
@@ -490,10 +509,13 @@ align-items: center;
 {
     text-align: center;
     font-size: 150px;
-    color: rgb(111, 27, 189);
+    color: black;
 }
 .juegoscoach div h2
 {
+    width: 80%;
+    margin: auto;
+    color: black;
     padding-bottom: 5%;
 }
 .juegoscoach h2
@@ -504,24 +526,45 @@ align-items: center;
 }
 .vercoachs
 {
-    margin-left: 42.5%;
+    margin-left: 45%;
     padding: 0.5%;
     border-radius: 8px;
     text-decoration: none;
     text-align: center;
-    background-color: darkgrey;
+    background-color:   #2a2829;
     font-size: 30px;
+    color: white;
+}
+.vercoachs:hover{
+    background-color: white;
+    color: black    ;
+}
+.quesirvecoach{
+    background-color: white;
+}
+.quesirvecoach h2{
+    color: black;
 }
 .quesirvecoach div div
 {
-    background-color: rgb(230, 68, 79);
+    background-color: #000000;
     width: 70%;
     border-radius: 20px;
-    margin-left: 12%;
+
     margin-bottom: 1%;
+}
+.quesirvecoach{
+    padding-bottom: 3%;
+    padding-top: 1%;
+    color:white;
+}
+.quesirvecoach div div{
+margin: 0 auto;
+margin-bottom: 1%;
 }
 .quesirvecoach div div p
 {
+    color: white;
     font-size: 20px;
     text-align: center;
 }
