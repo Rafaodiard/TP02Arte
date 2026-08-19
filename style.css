@@ -480,7 +480,7 @@ align-items: center;
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 .imgjuegos
 {
@@ -505,11 +505,89 @@ align-items: center;
 .vercoachs
 {
     margin-left: 42.5%;
-    padding: 1%;
+    padding: 0.5%;
     border-radius: 8px;
     text-decoration: none;
     text-align: center;
     background-color: darkgrey;
+    font-size: 30px;
+}
+.quesirvecoach div div
+{
+    background-color: rgb(230, 68, 79);
+    width: 70%;
+    border-radius: 20px;
+    margin-left: 12%;
+    margin-bottom: 1%;
+}
+.quesirvecoach div div p
+{
+    font-size: 20px;
+    text-align: center;
+}
+.quesirvecoach div div h3
+{
+    font-size: 30px;
+    text-align: center;
+}
+.quesirvecoach h2
+{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.streamers h2
+{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.streamers div div
+{
+    background-color: aqua;
+    width: 95%;
+    margin-left: 1.7%;
+    border-radius: 20px;
+
+}
+.streamers div div img
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.streamers div div p
+{
+    margin-left: 3%;
+    margin-bottom: 0.5%;
+    font-size: 20px;
+}
+.lvlup
+{
+    text-align: center;
+    padding-bottom: 4%;
+}
+.lvlup a
+{
+    padding: 0.5%;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    background-color: darkgrey;
+    font-size: 30px;
+    margin-right: 2%;
+}
+.lvlup h2
+{
+    font-size: 60px;
+}
+.lvlup h3
+{
+    margin-bottom: 3%;
+    margin-top: 2%;
     font-size: 30px;
 }
 /*----------------------------------------------------layouts-----------------------------------*/
