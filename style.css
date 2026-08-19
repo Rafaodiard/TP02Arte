@@ -471,28 +471,20 @@ margin-top: 1%;
     padding-bottom: 2%;
 }
 .juegoscoach{
-    background-color: #2a2829;
+    background-image: url(assets/fondos/coach-2.png);
     padding-bottom: 2%;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
-.juegoscoach div{   
-    background-color: white;
-}
-.juegoscoach .imgjuegos{
-    background-color:#2a2829;
+.juegoscoach div:first-child{   
+    background-image: url(assets/fondos/coach-1.png);
 }
 .juegoscoach div img{
     text-align: center;
 
-}
-.juegoscoach a{
-
-}
-.imgjuegos
-{
-    
-    max-width: 60%;
-    margin-bottom: 2%;
 }
 .imgjuegos img
 {
@@ -504,12 +496,22 @@ margin-top: 1%;
 .imgjuegos
 {
     margin-left: 20%;
+    max-width: 60%;
+    margin-bottom: 2%;
+}
+.imgjuegos img:hover
+{
+    scale: 1.03;
+}
+.imgjuegos a
+{
+    margin-left: 1%;
 }
 .juegoscoach div h1
 {
     text-align: center;
     font-size: 150px;
-    color: black;
+    color: #d50032;
 }
 .juegoscoach div h2
 {
@@ -523,6 +525,10 @@ margin-top: 1%;
     text-align: center;
     font-size: 50px;
     color: rgb(250, 250, 250);
+}
+.juegoscoach div h1:first-child
+{
+    color: black;
 }
 .vercoachs
 {
@@ -553,6 +559,10 @@ margin-top: 1%;
 
     margin-bottom: 1%;
 }
+.quesirvecoach div div:hover
+{
+    scale: 107%;
+}
 .quesirvecoach{
     padding-bottom: 3%;
     padding-top: 1%;
@@ -580,19 +590,43 @@ margin-bottom: 1%;
     margin-top: 5%;
     margin-bottom: 2%;
 }
+.streamers
+{
+    background-image: url(assets/fondos/fondo-streamers.png);
+    width: auto;
+    padding-bottom: 5%;
+}
 .streamers h2
 {
     text-align: center;
     font-size: 70px;
     margin-bottom: 2%;
-    margin-top: 2%;
+}
+.streamers h3
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 2.5%;
+}
+.streamers h4
+{
+    color: #d50032;
+    font-size: 20px;
+    margin-left: 2.5%;
+}
+.streamers div div:hover
+{
+    scale: 103%;
+    border: 2px solid white;
 }
 .streamers div div
 {
-    background-color: aqua;
+    background-color: black;
     width: 95%;
     margin-left: 1.7%;
     border-radius: 20px;
+    border: 2px solid #d50032;
+    padding-bottom: 3%;
 
 }
 .streamers div div img
@@ -601,17 +635,70 @@ margin-bottom: 1%;
     margin-left: 15%;
     margin-top: 4%;
     margin-bottom: 2%;
+    border-radius: 8px;
+
 }
-.streamers div div p
+.streamers div div div
 {
-    margin-left: 3%;
+    border:  0px;
+}
+
+.streamers div div div p
+{
     margin-bottom: 0.5%;
     font-size: 20px;
+    color: white;
+}
+.streamers div div div img
+{
+    width: 20%;
+    margin-left: 5%;
+}
+.streamers div div div img:last-of-type
+{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.streamers div div div p:first-of-type
+{
+    margin-bottom: 12%;
+    font-size: 20px;
+    width: 47%;
+    margin-left: 0%;
+}
+.streamers div div div h5
+{
+    color: gray;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 0%;
+}
+.streamers div div div:hover
+{
+    border: 0px;
+    scale: 100%;
+}
+.streamers div div div img:first-child
+{
+    float: left;
+}
+.streamers div div div p:nth-of-type(2), p:nth-of-type(3)
+{
+    margin-left: 15%;
+    border: 2px solid #d50032;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .lvlup
 {
     text-align: center;
     padding-bottom: 4%;
+    background-image: url(assets/fondos/fondoircoachs.png);
 }
 .lvlup a
 {
@@ -619,9 +706,14 @@ margin-bottom: 1%;
     border-radius: 8px;
     text-decoration: none;
     text-align: center;
-    background-color: darkgrey;
     font-size: 30px;
     margin-right: 2%;
+    background-color: #2a2829;
+}
+.lvlup a:hover
+{
+    background-color: white;
+    
 }
 .lvlup h2
 {
@@ -632,6 +724,7 @@ margin-bottom: 1%;
     margin-bottom: 3%;
     margin-top: 2%;
     font-size: 30px;
+    color: #d50032;
 }
 /*----------------------------------------------------layouts-----------------------------------*/
 .x3x2 {
