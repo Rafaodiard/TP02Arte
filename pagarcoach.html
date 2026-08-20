@@ -24,24 +24,56 @@
     </header>
 
 <main >
-    <section class="">
-        <h1>CONTRATA TU COACH</h1>
 
-    </section>
-    <section class="">
+    
+    <section class="checkout">
+        <h1>CONTRATA TU COACH</h1>
         <form action="solicitudEnviada.html" >
         
         <input type="text" name="name"  placeholder="Ingresa tu nombre"/>
         <select>
-            <option>Consulta sobre un producto</option>
-            <option>Problema con mi compra</option>
-            <option>Estado de mi pedido</option>
-            <option>Problema con el pago</option>
-            <option>Otro</option>
+            <option>1 Sesion</option>
+            <option>3 Sesiones</option>
+            <option>7 Sesiones</option>
+            <option>15 Sesiones</option>
+            <option>30 Sesiones</option>
         </select>
         <input type="text" name="email"  placeholder="mail ej: 123dante@gmail.com"/>
-        <input type="text" name="pedido"  placeholder="Número de pedido"/>
-        Contanos qué necesitás:
+        <input type="text" name="pedido"  placeholder="Cuenta de discord"/>
+        <h2>Pago</h2>
+
+        <div>
+            <label>
+                <input type="radio" name="pago">
+                Tarjeta de credito
+            </label>
+
+            <img src="assets/icons/metodospago/mastercard.png" alt="">
+            <img src="assets/icons/metodospago/visa.png" alt="">
+        </div>
+
+        <div>
+            <label>
+                <input type="radio" name="pago">
+                Billetera virtual
+            </label>
+
+            <img src="assets/icons/metodospago/mp.png" alt="">
+            <img src="assets/icons/metodospago/modo.png" alt="">
+        </div>
+
+
+            <h2>Tarjeta</h2>
+
+            <input type="text" name="titular" placeholder="Titular de la tarjeta">
+
+            <input type="number" name="numtarjeta" placeholder="Numero de la tarjeta">
+
+            <div>
+                <input type="date" name="fechavenci">
+                <input type="number" name="codigoseg" placeholder="Codigo de seguridad">
+            </div>
+        Algo que quieras agregar:
         <textarea name="unirse" rows="10" cols="30"></textarea> 
         <button type="submit">Enviar consulta</button>        
         </form>
