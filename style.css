@@ -483,6 +483,9 @@ margin-top: 1%;
 }
 .juegoscoach div:first-child{   
     background-image: url(assets/fondos/coach-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .juegoscoach div img{
     text-align: center;
@@ -595,6 +598,9 @@ margin-bottom: 1%;
 .streamers
 {
     background-image: url(assets/fondos/fondo-streamers.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: auto;
     padding-bottom: 5%;
 }
@@ -701,6 +707,9 @@ margin-bottom: 1%;
     text-align: center;
     padding-bottom: 4%;
     background-image: url(assets/fondos/fondoircoachs.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .lvlup a
 {
@@ -783,7 +792,31 @@ margin-bottom: 1%;
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
 }
+.x1x5 {
+  width: 100%;
 
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+.x1x3 {
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.x1x2 {
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+/*-----------------------------Layouts----------------------------------*/
 
 
 
@@ -901,4 +934,73 @@ margin-bottom: 1%;
 
 .checkout button:hover{
     background-color: black;
+}
+.coaching
+{
+    background-image: url(assets/fondos/todoscoachs.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.coaching div div
+{
+    background-color: black;
+    border-radius: 20px;
+    padding-bottom: 10%;
+}
+.coaching div div img
+{
+    width: 100%;
+}
+.coaching h1
+{
+    font-size: 150px;
+    text-align: center;
+    text-decoration: none;
+}
+.coaching h2
+{
+    font-size: 50px;
+    color: #d50032;
+    margin-left: 1%;
+}
+.temp h1
+{
+    font-size: 30px;
+    color: white;
+}
+.temp h3
+{
+    color: gray;
+    font-size: 15px;
+    margin-left: 5%;
+}
+.temp p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 5%;
+}
+.temp p:nth-of-type(3)
+{
+    border: 0px;
+    text-align: left;
+}
+.temp a
+{
+    text-decoration: none;
+    font-size: 22px;
+    background-color: #aaa;
+    border-radius: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 20%;
+    color: #d50032;
+}
+.temp a:hover
+{
+    scale: 102%;
+    color: black;
 }
