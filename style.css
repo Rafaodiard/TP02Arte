@@ -624,6 +624,8 @@ margin-top: 1%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 1.75%;
+    padding-top: 1.75%;
 }
 .juegoscoach div img{
     text-align: center;
@@ -1071,6 +1073,7 @@ margin-top: 1%;
 .temp a:hover
 {
     color: black;
+    background-color: white;
 }
 
 
@@ -1223,9 +1226,14 @@ margin-top: 1%;
     border-radius: 8px;
     padding: 1%;
 }
+.melch
+{
+    margin-bottom: 8%;
+}
 .melch div h3
 {
     color: #d50032;
+    font-size: 30px;
 }
 .melch div:first-child p, .melch div:nth-child(2) p, .melch div:nth-child(4) p
 {
@@ -1242,20 +1250,65 @@ margin-top: 1%;
     text-align: center;
     color: white;
     margin-bottom: 2%;
+    font-size: 70px;
+    
 }
 .valoles div h3
 {
     color: #d50032;
+    font-size: 50px;
+    margin-bottom: 2%;
+
+
 }
 .valoles div
 {
     width: 50%;
     background-color: white;
     padding: 5%;
+    margin-bottom: 1%;
 }
 .valoles
 {
     margin-left: 10%;
+    text-align: center;
+}
+.community
+{
+    background-color: #d50032;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: white;
+}
+.community div h2
+{
+    font-size: 70px;
+    margin-bottom: 2%;
+}
+.community div p
+{
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+.community div a
+{
+    text-decoration: none;
+    font-size: 22px;
+    background-color: #000000;
+    text-align: center;
+    margin: 33%;
+    margin-top: 50%;
+    color: #ffffff;
+    padding: .5% 1% ;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.community div a:hover
+{
+    color: #000000;
+    background-color: white;
+    scale: 102%;
 }
 /*----------------------------------------------------layouts-----------------------------------*/
 .x3x2 {
